@@ -362,7 +362,7 @@ p{
 
 
 .containerMe{
-    margin-top: 30px;
+    padding-top: 15vh;
 }
 
 
@@ -447,4 +447,11 @@ p{
 .nav a{
     font-size: 15px;
     color: black;
+}
+
+.projectIMG{
+    width: 250px;
+    padding-bottom: 5vh;
+    padding-top: 20px;
+
 }
