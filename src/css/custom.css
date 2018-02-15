@@ -451,7 +451,13 @@ p{
 
 .projectIMG{
     width: 250px;
+    height: 200px;
     padding-bottom: 5vh;
     padding-top: 20px;
 
+}
+
+.hightlightTech{
+    color: red;
+    background-color: white;
 }
