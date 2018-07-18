@@ -38,15 +38,17 @@
     }
 
     .fadeIn1 {
-        font-size: 20px !important;
+        font-size: 40px !important;
+        padding-bottom: 10px;!important;
     }
 
     .fadeIn2{
-        font-size: 8px !important;
+
+        font-size: 20px !important;
     }
 
     .buttons button{
-        width: 100px !important;
+        width: 90px !important;
         height: 50px !important;
         border-radius: 50px;
 
@@ -56,9 +58,9 @@
         font-family: 'Montserrat', sans-serif;
         background-color: transparent;
         border: 2px solid #FDCD3B;
-        margin-top: 5vh !important;
+        margin-top: 15vh !important;
         text-transform: uppercase;
-        font-size: 10px !important;
+        font-size: 14px !important;
         -webkit-transition: width 0.5s; /* Safari */
         transition: width 0.5s;
     }
@@ -88,6 +90,29 @@
     .chunkRecalls{
         padding-left: 5vh !important;
         padding-right: 5vh !important;
+    }
+
+    #skillTree{
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+        position: relative;
+        left: -160px;
+        bottom: -250px;
+        width: 700px;
+    }
+
+    #toolTree{
+        margin-top: 60vh;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+        position: relative;
+        left: -160px;
+        bottom: -300px;
+        width: 700px;
+        margin-bottom: 80vh;
+
     }
 }
 
@@ -259,7 +284,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
     border: 2px solid #FDCD3B;
-    margin-top: 10vh;
+    margin-top: 15vh;
     text-transform: uppercase;
     font-size: 16px;
     -webkit-transition: width 0.5s; /* Safari */
